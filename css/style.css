@@ -1,0 +1,16 @@
+h1 {
+  color: blue;
+  font-size: 100px;
+  font-family: helvetica;
+}
+  img {
+    margin: 0px 0px 0px 0px;
+  }
+    ul {
+      padding: 40px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
