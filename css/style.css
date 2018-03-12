@@ -3,17 +3,17 @@ h1 {
   font-size: 100px;
   font-family: helvetica;
 }
-  img {
-    margin: 0px 0px 0px 0px;
-  }
-  .resize {
-  width: 100vw;   
-  }
-    ul {
-      padding: 40px;
-      background: rgba(0,0,0,0.5);
-    }
-    li {
-      display: inline;
-      padding: 0px 10px 0px 10px;
-    }
+img {
+  margin: 0px 0px 0px 0px;
+}
+.resize {
+width: 100vw;
+}
+ul {
+  padding: 40px;
+  background: rgba(0,0,0,0.5);
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
