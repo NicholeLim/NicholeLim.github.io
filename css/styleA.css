@@ -32,10 +32,11 @@ img {
 p {
   color: #5979db;
   text-align: center;
-  margin: 20px 50px 50px 50px;
+  margin: 20px 0px 0px 0px;
   font-size: 24px;
-  background-color: rgba(255, 255, 255, 0.75);
-  padding: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 10px 10px 20px 10px;
+  background-size: cover;
 }
 .main {
   width: 100vw;
