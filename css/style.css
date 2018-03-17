@@ -1,17 +1,14 @@
-.navbar {
-  min-height: 50px;
-}
+
 .navbar-inverse,
 .navbar-collapse {
   font-size: 14px;
   background-color: black;
   padding: 0;
-  color: #92E1FC;
 }
 
 .navbar-nav > li > a {
-  padding-top:0px !important;
-  padding-bottom:0px !important;
+  padding-top:5px !important;
+  padding-bottom:5px !important;
   color: #92E1FC;
 }
 .navbar {min-height:15px !important}
@@ -49,6 +46,10 @@ li {
 
 body {
     background-color: : black;
+}
+a {
+  color: #92E1FC;
+  font-size: 15px;
 }
 .cb-slideshow,
 .cb-slideshow:after {
@@ -108,17 +109,17 @@ body {
     bottom: 0;
     width: 100%;
     background-color: black;
-    color: #92E1FC;
+    color: white;
     text-align: center;
     z-index: 100;
 }
+
 .footer > li > a {
   padding-top:5px !important;
   padding-bottom:5px !important;
-  color: #92E1FC;
+  color: white;
 
 }
 .footer {
-  min-height:15px !important;
-  font-size: 14px;
+  min-height:5px !important;
 }
