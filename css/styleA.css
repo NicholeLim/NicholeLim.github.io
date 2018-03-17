@@ -14,19 +14,23 @@
 }
 .navbar {min-height:15px !important}
 
-h2 {
-  color: #F2F8FA;
-  font-size: 20px;
-  font-family: helvetica;
-  z-index: 100;
-  position: relative;
-  text-align: center;
-  padding-top: 40px;
-  font-family: sans-serif;
-}
 img {
-  margin: 0px 0px 0px 0px;
+  align-items: center;
+}
 
+.profile {
+  margin: 10px 50px 10px 50px;
+  border: 7px solid black;
+  border-radius: 20px;
+  max-width: 400px;
+  align-items: center;
+}
+p {
+  color: #5979db;
+  text-align: center;
+  margin: 20px 50px 50px 50px;
+  font-size: 36px;
+  background-color: rgba(255, 255, 255, 0.75);
 }
 .main {
   width: 100vw;
@@ -46,7 +50,9 @@ li {
 }
 
 body {
-    background-color: : black;
+  background: url('https://i.imgur.com/Rb3v8cr.jpg?2');
+  background-size: cover;
+  background-position: center;
 }
 a {
   color: #8da4ea;
