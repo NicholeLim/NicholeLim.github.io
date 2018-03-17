@@ -20,17 +20,22 @@ img {
 
 .profile {
   margin: 10px 50px 10px 50px;
-  border: 7px solid black;
+  border: 15px solid black;
   border-radius: 20px;
-  max-width: 400px;
-  align-items: center;
+  max-width: 385px;
+  position: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 p {
   color: #5979db;
   text-align: center;
   margin: 20px 50px 50px 50px;
-  font-size: 36px;
+  font-size: 24px;
   background-color: rgba(255, 255, 255, 0.75);
+  padding: 10px;
 }
 .main {
   width: 100vw;
@@ -50,7 +55,7 @@ li {
 }
 
 body {
-  background: url('https://i.imgur.com/Rb3v8cr.jpg?2');
+  background: url('https://i.imgur.com/MX55Adt.jpg?1');
   background-size: cover;
   background-position: center;
 }
