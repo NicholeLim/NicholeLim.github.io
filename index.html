@@ -9,8 +9,18 @@
   src="http://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+
 </head>
+
 <body>
+  <ul class="cb-slideshow">
+    <li><span><img src="https://i.imgur.com/Rb3v8cr.jpg?4"></span></li>
+    <li><span><img src="https://i.imgur.com/iujZErh.jpg?4"></span></li>
+    <li><span><img src="https://i.imgur.com/QsEemXH.jpg?3"></span></li>
+    <li><span><img src="https://i.imgur.com/nK1mztm.jpg?3"></span></li>
+  </ul>
+
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -19,40 +29,45 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-        </button> <a href="" class="navbar-brand"><img src="tubefood.jpg" height="101"></a>
+        </button> <a href="" class="navbar-brand"><img src="https://i.imgur.com/vwkGp5o.jpg" height="60"></a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
         <ul class="nav navbar-nav">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="restaurant.html">Restaurant List</a></li>
+          <li><a href="restaurant.html">Restaurant of the Month</a></li>
         </ul>
       </div>
     </div>
   </nav>
-    <h1></h1>
+  <div class="instructions">
+    <h2> Click a station to jump straight to a restaurant! </h2>
+  </div>
+  <center>
+    <div class="main">
+      <img src="Tube map options-resized.jpg" usemap="#image-map">
+      <map name="image-map">
+          <area target="_top" alt="Lancaster Gate" title="Lancaster Gate" href="https://www.royalparks.org.uk/parks/hyde-park/food-and-drink/lido-bar-and-cafe" coords="66,241,21,217" shape="rect">
+          <area target="_top" alt="Marble Arch" title="Marble Arch" href="https://www.zoilo.co.uk/" coords="69,219,112,241" shape="rect">
+          <area target="_top" alt="Bond Street" title="Bond Street" href="https://iltetto.co.uk/" coords="118,220,199,242" shape="rect">
+          <area target="_top" alt="Oxford Circus" title="Oxford Circus" href="http://www.ethosfoods.com/" coords="284,208,340,247" shape="rect">
+          <area target="_top" alt="Tottenham Court Road" title="Tottenham Court Road" href="http://www.koya.co.uk/" coords="409,211,468,245" shape="rect">
+          <area target="_top" alt="Holborn" title="Holborn" href="http://www.jidori.co.uk/" coords="568,214,622,245" shape="rect">
+          <area target="_top" alt="Chancery Lane" title="Chancery Lane" href="http://www.themodernpantry.co.uk/" coords="626,215,670,247" shape="rect">
+          <area target="_top" alt="St. Paul's " title="St. Paul's " href="https://www.padella.co/" coords="674,210,723,250" shape="rect">
+          <area target="_top" alt="Bank" title="Bank" href="http://www.koya.co.uk/" coords="729,209,777,251" shape="rect">
+          <area target="_top" alt="Liverpool Street" title="Liverpool Street" href="https://www.rosasthaicafe.com/locations/spitalfields" coords="779,210,840,252" shape="rect">
+      </map>
+    </div>
+  </center>
 
-<center>
-    <img src="Tube map options-resized.jpg" usemap="#image-map">
-
-  <map name="image-map">
-      <area target="_top" alt="Lancaster Gate" title="Lancaster Gate" href="https://www.royalparks.org.uk/parks/hyde-park/food-and-drink/lido-bar-and-cafe" coords="66,241,21,217" shape="rect">
-      <area target="_top" alt="Marble Arch" title="Marble Arch" href="https://www.zoilo.co.uk/" coords="69,219,112,241" shape="rect">
-      <area target="_top" alt="Bond Street" title="Bond Street" href="https://iltetto.co.uk/" coords="118,220,199,242" shape="rect">
-      <area target="_top" alt="Oxford Circus" title="Oxford Circus" href="http://www.ethosfoods.com/" coords="284,208,340,247" shape="rect">
-      <area target="_top" alt="Tottenham Court Road" title="Tottenham Court Road" href="http://www.koya.co.uk/" coords="409,211,468,245" shape="rect">
-      <area target="_top" alt="Holborn" title="Holborn" href="http://www.jidori.co.uk/" coords="568,214,622,245" shape="rect">
-      <area target="_top" alt="Chancery Lane" title="Chancery Lane" href="http://www.themodernpantry.co.uk/" coords="626,215,670,247" shape="rect">
-      <area target="_top" alt="St. Paul's " title="St. Paul's " href="https://www.padella.co/" coords="674,210,723,250" shape="rect">
-      <area target="_top" alt="Bank" title="Bank" href="http://www.koya.co.uk/" coords="729,209,777,251" shape="rect">
-      <area target="_top" alt="Liverpool Street" title="Liverpool Street" href="https://www.rosasthaicafe.com/locations/spitalfields" coords="779,210,840,252" shape="rect">
-  </map>
-</center>
-
-  </body>
-  <div>
+  <div class="footer">
+    <ul class="soc">
+      <li><a class="soc-twitter" href="https://www.twitter.com"></a></li>
+      <li><a class="soc-facebook" href="https://www.facebook.com"></a></li>
+      <li><a class="soc-rss soc-icon-last" href="https://www.instagram.com"></a></li>
+    </ul>
     <ul class="list-unstyled list-inline list-footer">
-      <li><a href="#">About</a></li>
       <li><a href="#">Contact</a></li>
       <li><a href="#">Newsletter</a></li>
     </ul>
