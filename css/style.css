@@ -3,7 +3,7 @@
 .navbar-collapse {
   font-size: 14px;
   background-color: black;
-  padding: 0;
+  padding: 0px;
 }
 
 .navbar-nav > li > a {
@@ -16,7 +16,7 @@
 
 img {
   margin: 0px 0px 0px 0px;
-
+  padding: 0px;
 }
 .main {
   width: 100vw;
@@ -24,6 +24,11 @@ img {
   z-index: 100;
   padding-top: 20px;
   padding-bottom: 50px;
+}
+.main img {
+  padding: 0px;
+  border: solid white;
+  border-radius: 5px;
 }
 ul {
   padding: 40px 40px 10px 10px;
@@ -37,7 +42,7 @@ li {
 }
 
 body {
-    background-color: : black;
+    background-color: solid black;
     font-family: courier;
 }
 a {
@@ -45,10 +50,9 @@ a {
   font-size: 15px;
   font-family: courier;
 }
-h1 {
+.title h1 {
   color: #5979db;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.75);
   padding: 10px;
   font-family: courier;
 }
@@ -71,10 +75,9 @@ h2 {
   margin: auto;
   width: 50%;
 }
-h4 {
+.title h4 {
   color: #5979db;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.75);
   padding: 0px 0px 10px 0px;
   font-family: courier;
 }
@@ -86,6 +89,15 @@ p {
   background-color: rgba(255, 255, 255, 0.75);
   padding: 10px;
   font-family: courier;
+}
+.title {
+  background: #666666;
+  background: -webkit-linear-gradient(#e5e5e5, #ffffff);
+  background:    -moz-linear-gradient(#e5e5e5, #ffffff);
+  background:         linear-gradient(#e5e5e5, #ffffff);
+  padding: 0px;
+  margin: 0px;
+  width: cover;
 }
 .cb-slideshow,
 .cb-slideshow:after {
