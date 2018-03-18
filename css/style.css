@@ -26,8 +26,9 @@ img {
   padding-bottom: 50px;
 }
 ul {
-  padding: 40px;
+  padding: 40px 40px 10px 10px;
   background: black;
+  display: inline-block;
 }
 
 li {
@@ -120,7 +121,7 @@ p {
     13% { opacity: 1; animation-timing-function: ease-out; }
     38% { opacity: 1 }
     63% { opacity: 0 }
-    100% { opacity: 0 }
+    88% { opacity: 0 }
 }
 .no-cssanimations .cb-slideshow li span{
 	opacity: 1;
@@ -132,7 +133,7 @@ p {
     width: 100%;
     background-color: black;
     color: white;
-    text-align: center;
+    text-align: left;
     z-index: 100;
     min-height: 15px !important;
 }
@@ -142,6 +143,28 @@ p {
   padding-bottom:5px !important;
   color: #8da4ea;
   font-size: 18px;
+  overflow:hidden;
+  margin:0; padding:0;
+  list-style:none;
+}
+
+@font-face {
+    font-family: 'si';
+    src: url('../font/socicon.eot');
+    src: url('../font/socicon.eot?#iefix') format('embedded-opentype'),
+         url('../font/socicon.woff') format('woff'),
+         url('../font/socicon.ttf') format('truetype'),
+         url('../font/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(../font/socicon.svg) format(svg);
+    }
 }
 
 @font-face {
@@ -235,4 +258,12 @@ p {
 }
 .soc-rss:before {
     content:'\e00b';
+}
+
+.footer li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+    text-align:left;
+
 }
