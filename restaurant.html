@@ -109,8 +109,18 @@
       <li><a class="soc-rss soc-icon-last" href="#"></a></li>
     </ul>
     <ul class="list-unstyled list-inline list-footer">
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">Newsletter</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li>
+        <div class="popup" onclick="myFunction()">Newsletter
+          <span class="popuptext" id="myPopup">Coming soon!</span>
+          <script>
+          function myFunction() {
+              var popup = document.getElementById("myPopup");
+              popup.classList.toggle("show");
+          }
+          </script>
+        </div>
+      </li>
     </ul>
   </div>
 </body>

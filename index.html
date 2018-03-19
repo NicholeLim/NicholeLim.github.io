@@ -89,11 +89,6 @@
           <area target="_blank" alt="Canada Water" title="Canada Water" href="http://www.cafeeastpho.co.uk/" coords="819,442,847,498" shape="rect">
       </map>
 
-
-
-
-
-
     </div>
   </center>
 
@@ -105,8 +100,19 @@
     </ul>
     <ul class="list-unstyled list-inline list-footer">
       <li><a href="contact.html">Contact</a></li>
-      <li><a href="#">Newsletter</a></li>
+      <li>
+        <div class="popup" onclick="myFunction()">Newsletter
+          <span class="popuptext" id="myPopup">Coming soon!</span>
+          <script>
+          function myFunction() {
+              var popup = document.getElementById("myPopup");
+              popup.classList.toggle("show");
+          }
+          </script>
+        </div>
+      </li>
     </ul>
   </div>
+  
 </body>
 </html>
