@@ -203,6 +203,8 @@ p {
     bottom: 125%;
     left: 50%;
     margin-left: -80px;
+    font-family: Helvetica;
+    font-size: 18px;
 }
 
 /* Popup arrow */
