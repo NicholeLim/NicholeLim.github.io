@@ -6,11 +6,11 @@
   padding: 0px;
 }
 
-.navbar-nav > li > a {
+.navbar-inverse .navbar-nav > li > a {
   padding-top:5px !important;
   padding-bottom:5px !important;
   color: #8da4ea;
-  font-family: sans-serif;
+  font-family: helvetica;
 }
 .navbar {
   min-height:15px !important
@@ -29,7 +29,9 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+}
+.profile img {
+  width: 100%;
 }
 p {
   color: #5979db;
@@ -46,7 +48,7 @@ p {
   position: relative;
   z-index: 100;
   padding-top: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 120px;
 }
 ul {
   padding: 40px 40px 10px 10px;
@@ -71,7 +73,7 @@ a {
 }
 
 .footer {
-    position: relative;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
