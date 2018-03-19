@@ -12,7 +12,10 @@
   color: #8da4ea;
   font-family: sans-serif;
 }
-.navbar {min-height:15px !important}
+.navbar {
+  min-height:15px !important;
+  margin-bottom: 0px;
+}
 
 img {
   margin: 0px 0px 0px 0px;
@@ -48,7 +51,7 @@ body {
 a {
   color: #8da4ea;
   font-size: 15px;
-  font-family: courier;
+  font-family: Helvetica;
 }
 .title h1 {
   color: #5979db;
@@ -65,13 +68,13 @@ h2 {
   font-size: 20px;
   z-index: 100;
   position: relative;
-  font-family: courier;
+  font-family: Helvetica;
   display: inline-block;
   text-align: center;
 }
 .instructions {
   margin: auto;
-  width: 50%;
+  width: 250px;
 }
 .title h4 {
   color: #5979db;
@@ -85,7 +88,7 @@ p {
   font-size: 24px;
   background-color: rgba(255, 255, 255, 0.75);
   padding: 10px 10px 30px 10px;
-  font-family: courier;
+  font-family: Helvetica;
 }
 .title {
   background: #666666;
