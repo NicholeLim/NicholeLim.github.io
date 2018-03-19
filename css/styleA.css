@@ -39,7 +39,7 @@ p {
   background-color: rgba(255, 255, 255, 1);
   padding: 10px 10px 30px 10px;
   background-size: cover;
-  font-family: courier;
+  font-family: Helvetica;
 }
 .main {
   width: 100vw;
@@ -63,7 +63,7 @@ body {
   background: url('https://i.imgur.com/MX55Adt.jpg?1');
   background-size: cover;
   background-position: fixed;
-  font-family: courier;
+  font-family: Helvetica;
 }
 a {
   color: #8da4ea;

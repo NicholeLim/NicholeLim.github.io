@@ -43,7 +43,7 @@ li {
 
 body {
     background-color: solid black;
-    font-family: courier;
+    font-family: Helvetica;
 }
 a {
   color: #8da4ea;
@@ -54,7 +54,7 @@ a {
   color: #5979db;
   text-align: center;
   padding: 10px;
-  font-family: courier;
+  font-family: Helvetica;
 }
 h2 {
   color: #5979db;
@@ -77,7 +77,7 @@ h2 {
   color: #5979db;
   text-align: center;
   padding: 0px 0px 10px 0px;
-  font-family: courier;
+  font-family: Helvetica;
 }
 p {
   color: #5979db;
